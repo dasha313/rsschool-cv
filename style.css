@@ -1,0 +1,242 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+body {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #363636;
+}
+
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.header {
+   width: 100%;
+   display: flex;
+}
+.column {
+   width: 40%;
+   background-color: #ffefd5;
+   padding: 0 50px 0 70px;
+}
+.header__avatar {
+   display: flex;
+   width: 252px;
+   height: 252px;
+   justify-content: center;
+   margin: 50px auto;
+}
+.header__image {
+   border-radius: 50%;
+   width: 100%;
+   border: 16px solid #fff;
+}
+.column__header {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 50px;
+}
+.header__title {
+   font-size: 45px;
+}
+.header__subtitle {
+   font-size: 25px;
+   margin-top: 15px;
+}
+
+.main {
+   display: flex;
+}
+
+.section__contact {
+   padding-bottom: 50px;
+}
+.contact__title {
+   padding-bottom: 30px;
+}
+.contact__wrapper {
+   list-style: none;
+}
+.contact__block {
+   display: flex;
+   align-items: center;
+   padding-bottom: 15px;
+}
+.contact__image {
+   background-position: center left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+}
+.contact__image-tel {
+   background-image: url("./img/icons8-смартфон-30.png");
+}
+.contact__link {
+   text-decoration: none;
+   color: #363636;
+}
+.contact__link:hover {
+   text-decoration: underline #8b0000;
+}
+.contact__image-mail {
+   background-image: url("./img/icons8-почта.svg");
+}
+.contact__image-telegramm {
+   background-image: url("./img/icons8-телеграмма-app.svg");
+}
+.contact__image-git {
+   background-image: url("./img/icons8-квадрат-github.svg");
+}
+.contact__image-location {
+   background-image: url("./img/icons8-маркер-50.png");
+}
+
+.section__languages {
+   padding-bottom: 50px;
+}
+.languages__title {
+   padding-bottom: 30px;
+}
+.languages__list {
+   list-style: none;
+}
+.languages__item {
+   padding: 0 0 10px 15px;
+   position: relative;
+}
+.languages__item::before {
+   content: "";
+   position: absolute;
+   top: 4px;
+   left: 0;
+   display: block;
+   width: 8px;
+   height: 8px;
+   background-color: #8b0000;
+   border-radius: 50%;
+}
+
+.column__main {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #fff;
+   padding: 0 50px;
+}
+.section__about {
+   padding-bottom: 70px;
+}
+.about__title {
+   padding-bottom: 30px;
+}
+.about__text {
+}
+.section__education {
+   padding-bottom: 40px;
+}
+.education__title {
+   padding-bottom: 30px;
+}
+.education__block {
+   margin-bottom: 40px;
+}
+.date {
+   margin-bottom: 10px;
+   background-color: #ffefd5;
+   display: inline-block;
+   color: #363636;
+   border-radius: 5px;
+   padding: 2px 10px;
+   font-size: 17px;
+   font-weight: 700;
+}
+.education__date {
+   margin-bottom: 10px;
+}
+.education__text {
+   font-weight: 500;
+}
+
+.section__skills {
+   padding-bottom: 40px;
+}
+.skills__title {
+   padding-bottom: 30px;
+}
+.skills__block {
+   margin-bottom: 40px;
+}
+.skills {
+   margin-bottom: 10px;
+   background-color: #ffefd5;
+   display: inline-block;
+   color: #363636;
+   border-radius: 5px;
+   padding: 2px 10px;
+   font-size: 17px;
+   font-weight: 700;
+}
+
+.section__hobbies {
+   padding-bottom: 50px;
+}
+.hobbies__title {
+   padding-bottom: 30px;
+}
+.hobbies__list {
+   list-style: none;
+}
+.hobbies__item {
+   padding: 0 0 10px 15px;
+   position: relative;
+}
+.hobbies__item::before {
+   content: "";
+   position: absolute;
+   top: 4px;
+   left: 0;
+   display: block;
+   width: 8px;
+   height: 8px;
+   background-color: #8b0000;
+   border-radius: 50%;
+}
+
+.footer {
+   background-color: #ffdab9;
+   padding: 10px 0;
+}
+.footer__iner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer__block {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.footer__image {
+   width: 70px;
+   margin: 0 10px;
+   padding-bottom: 10px;
+}
+.footer__link {
+   text-decoration: none;
+   color: #363636;
+   padding-bottom: 5px;
+   margin-right: 10px;
+}
