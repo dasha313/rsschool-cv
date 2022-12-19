@@ -6,81 +6,124 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-   <title>CV-Dasha Leschevich</title>
+   <title>RSSchool CV</title>
 </head>
 
 <body>
-   <div class="container__cv">
-      <div class="container__cv-image">
-         <img class="foto-main" src="./img/foto.jpg" alt="foto">
-         <div class="container__cv-information">
-            <div class="cv-information">
-               <div class="information">
-                  <h1>Dasha Leshevich</h1>
-                  <div class="specialization">Front End Developer</div>
-                  <div class="contact-information">
-                     <h2 class="contact__info">Contact information:</h2>
-                     <p class="info"><b> Email:</b><a href="">missis.dashulka@inbox.ru;</a> </p>
-                     <p class="info"><b> Phone:</b> +375 33 325-68-87;</p>
-                     <p class="info"><b> Location:</b>Minsk, Belarus;</p>
-                     <p class="info"><b> GitHub:</b><a href="">https://github.com/dasha313;</a></p>
-                     <p class="info"><b>Telegram: </b><a href="">DashaLeschevich;</a> </p>
-                  </div>
-                  <div class="container__about-me">
-                     <h2 class="about-me">About Me:</h2>
-                     <p class="about-me__info">I started my activity with self-study.I have completed 6-month Front-end
-                        development courses, I
-                        continue to study, take online courses, and improve my knowledge.English at B1 level. I study on
-                        my
-                        own, during the year I plan to exit to C1.
-                     </p>
-                  </div>
-                  <div class="container__education">
-                     <h2 class="education">Education:</h2>
-                     <p class="education-school"><b>My-It-School: </b>2022 Front End Development courses.</p>
-                     <p class="education-school"><b>Rolling Scopes School: </b>2022-2023 Front End Development Course.
-                     </p>
-                  </div>
-                  <div class="container__languages">
-                     <h2 class="languages">Languages:</h2>
-                     <p class="languages__info"> <b>Russian </b> - C2;</p>
-                     <p class="languages__info"><b>Belarusian </b> - C2;</p>
-                     <p class="languages__info"><b>English </b>- B1;</p>
-                  </div>
-                  <div class="container__skills">
-                     <h2 class="skills">Skills:</h2>
-                     <h3 class="hard-skills">Hard skills:</h3>
-                     <p class="hard-skills__info">HTML, CSS, SASS (SCSS), JS (ECMAScript),
-                        NodeJs, Webpack/Gulp, ReactJS, Git/GitHub,
-                        Adobe Photoshop, Figma.</p>
-                     <h3 class="soft-skills">Soft skills:</h3>
-                     <p class="soft-skills__info">Teamwork, Fast learning, Attentiveness, Adaptability</p>
-                  </div>
-                  <div class="container__hobbi">
-                     <h2 class="hobbi">Hobbi:</h2>
-                     <p class="hobbi-info">
-                        Reading.I'm starting to learn how to draw.Sport.
-                     </p>
-                  </div>
-                  <div class="container__cod">
-                     <h2 class="cod">Cod:</h2>
-                     <div class="cod__container">
-                        let arr3 = [];<br>
-                        result = 0;<br>
-                        for (let i = 23; i &lt;= 57; i++) {<br>
-                        arr3.push(i); <br>
-                        for (let i=0; i &lt; arr3.length; i++) {<br>
-                        result +=arr3[i];<br>
-                        }<br>
-                        }<br>
-                        console.log(arr3); console.log('Сумма=' + result + '');
-                     </div>
-                  </div>
-               </div>
+   <div class="wrapper">
+      <header class="header">
+         <div class="column">
+            <div class="header__avatar">
+               <img src="./img/foto.jpg" class="header__image" alt="avatar">
             </div>
          </div>
-      </div>
+         <div class="column__header">
+            <h1 class="header__title">Dasha Leshevich</h1>
+            <h2 class="header__subtitle">Front End Developer</h2>
+         </div>
+      </header>
+      <main class="main">
+         <div class="column">
+            <section class="section__contact">
+               <h2 class="contact__title">Contacts</h2>
+               <ul class="contact__wrapper">
+                  <li class="contact__block">
+                     <div class="contact__image contact__image-tel"></div>
+                     <div class="contact__text">
+                        <a href="tel:375333256887" class="contact__link">+375(33)325-68-87</a>
+                     </div>
+                  </li>
+                  <li class="contact__block">
+                     <div class="contact__image contact__image-mail"></div>
+                     <div class="contact__text">
+                        <a href="mailto:missis.dashulka@inbox.ru" class="contact__link">missis.dashulka@inbox.ru</a>
+                     </div>
+                  </li>
+                  <li class="contact__block">
+                     <div class="contact__image contact__image-telegramm"></div>
+                     <div class="contact__text">
+                        <a href="https://t.me/DashaLeschevich" target="_blank" class="contact__link">DashaLeschevich</a>
+                     </div>
+                  </li>
+                  <li class="contact__block">
+                     <div class="contact__image contact__image-git"></div>
+                     <div class="contact__text">
+                        <a href="https://github.com/dasha313" target="_blank"
+                           class="contact__link">https://github.com/dasha313</a>
+                     </div>
+                  </li>
+                  <li class="contact__block">
+                     <div class="contact__image contact__image-location"></div>
+                     <div class="contact__text">
+                        <a href="https://yandex.by/maps/157/minsk/?ll=27.555691%2C53.902735&z=12"
+                           class="contact__link">Minsk, Belarus</a>
+                     </div>
+                  </li>
+               </ul>
+            </section>
+            <section class="section__languages">
+               <h2 class="languages__title">Languages</h2>
+               <ul class="languages__list">
+                  <li class="languages__item">Russian - C2</li>
+                  <li class="languages__item">Belarusian - C2</li>
+                  <li class="languages__item">English - B1</li>
+               </ul>
+            </section>
+         </div>
+         <div class="column column__main">
+            <section class="section__about">
+               <h2 class="about__title">About me</h2>
+               <p class="about__text">I started my activity with self-study.I have completed 6-month Front-end
+                  development courses, I continue to study, take online courses, and improve my knowledge.English at B1
+                  level. I study on my own, during the year I plan to exit to C1.</p>
+            </section>
+            <section class="section__education">
+               <h2 class="education__title">Education</h2>
+               <div class="education__block">
+                  <div class="date education__date">2013-2016</div>
+                  <p class="education__text">Minsk State
+                     college of rail transport
+                     named after E.P. Yushkevich</p>
+               </div>
+               <div class="education__block">
+                  <div class="date education__date">05/2022-11/2022</div>
+                  <p class="education__text">My-IT-School Front-end development </p>
+               </div>
+            </section>
+            <section class="section__skills">
+               <h2 class="skills__title">Skills</h2>
+               <div class="skills__block">
+                  <div class="skills skills__hard">Hard skills</div>
+                  <p class="skills__text">HTML, CSS, SASS (SCSS), JS (ECMAScript), NodeJs, Webpack/Gulp, ReactJS,
+                     Git/GitHub, Adobe Photoshop, Figma.</p>
+               </div>
+               <div class="skills__block">
+                  <div class="skills skills__soft">Soft skills</div>
+                  <p class="skills__text">Teamwork, Fast learning, Attentiveness, Adaptability</p>
+               </div>
+            </section>
+            <section class="section__hobbies">
+               <h2 class="hobbies__title">Hobbies</h2>
+               <ul class="hobbies__list">
+                  <li class="hobbies__item">Reading</li>
+                  <li class="hobbies__item">I'm starting to learn how to draw</li>
+                  <li class="hobbies__item">Sport</li>
+               </ul>
+            </section>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__iner">
+            <div class="footer__block">
+               <img src="./img/rs-logo.svg" class="footer__image" alt="image">
+               <a href="https://github.com/dasha313" class="footer__link">My GitHub</a>
+               <a href="https://rs.school/js/" class="footer__link">preschool course
+                  2022</a>
+            </div>
+         </div>
+      </footer>
    </div>
+
 </body>
 
 </html>
