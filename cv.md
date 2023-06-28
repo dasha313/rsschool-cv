@@ -9,3 +9,7 @@ ________________________________________________________________________________
 - **GitHub:** https://github.com/dasha313  
 - **Telegram:** DashaLeschevich  
 __________________________________________________________________________________________________________________
+### About Me
+
+Started its activity with selfeducation.Completed 6-month Front-end courses development, keep learning, go through online courses, level up your knowledge good teamwork skills. Skill organize, plan, to make decisions.
+__________________________________________________________________________________________________________________
