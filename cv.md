@@ -16,7 +16,7 @@ ________________________________________________________________________________
 ### Skills
 
 - HTML   
-- CSS(SASS/SCSS,БЭМ)  
+- CSS(SASS/SCSS,BEM)  
 - JavaScript  
 - Git, GitHub  
 - Adobe Photoshop,Figma   
